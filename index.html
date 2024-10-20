@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>document</title>
+  <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
+      <div class="nav-adderes border">
+        <p class="add-1"> Deliver to</p>
+        <div class="add-icon ">
+          <image src="data:image/png;base64,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" height="15px">
+          <p class="add-2"> India</p>
+        </div>
+      </div>
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search Amazon" class="search-input">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="nav-singin border">
+        <p><span> Hello, sign in</span></p>
+        <p class="nav-second"> Account &lists</p>
+      </div>
+      <div class="nav-return border">
+      <p><span> Returns</span></p>
+      <p class="nav-second">&orders</p>
+    </div>
+    <div class="nav-cart border">Cart
+      <i class="fa-solid fa-cart-shopping"></i>
+  </div>
+    </div>
+
+<div class="panel">
+      <div class="panel-all">
+        All
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="panel-ops">
+        <p>Today's Deals</p>
+        <p>Customer Service</p>
+        <p>Registry</p>
+        <p>Gift Cards</p>
+        <p>Sell</p>
+      </div>
+      <div class="panel-deals">
+        Shop deals in Electronics
+      </div>
+    </div>
+  </header>
+  <div class="hero-section">
+    <div class="hero-mes">
+      <p> You are on amazon.com.You can also shop on Amazon India for millions with fast local delivery. <a> Click here to go amazon.in</a></p>
+    </div>
+  </div>
+  <div class="shop-sec">
+    <div class="box1 box">
+      <div class="box-content"><h2> Pick up where you left off</h2>
+        <div class="box-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg');"></div>
+          <p style="display: flex;"> see more</p>
+      </div>
+    </div>
+    <div class="box2 box ">
+     <div class="box-content">
+      <h3>categories in Kitchen appliances</h3>
+      <div class="box-img" style="background-image: url('https://m.media-amazon.com/images/I/21W7-lndINL._SY75_.jpg');" style="height: 200px;"></div>
+        <p style="display: flex;"> Explore all product in Kitchen</p>
+      </div>
+    </div>
+    <div class="box3 box ">
+      <div class="box-content"><h3> Shop for your home essentials</h3>
+        <div class="box-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_1x._SY116_CB563137408_.jpg');"></div>
+          <p style="display: flex;">  Discover more in home</p>
+      </div>
+    </div>
+    <div class="box4 box ">
+      <div class="box-content"><h3>  Home décor under $50 </h3>
+        <div class="box-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v6._SY304_CB573698005_.jpg');"></div>
+          <p style="display: flex;"> Shop now</p>
+      </div>
+    </div>
+    <div class="box1 box">
+      <div class="box-content"><h2> Beauty steals under $25</h2>
+        <div class="box-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg');"></div>
+          <p style="display: flex;"> Shop now</p>
+      </div>
+    </div>
+    <div class="box2 box ">
+     <div class="box-content">
+      <h3> Home Décor Under $20</h3>
+      <div class="box-img" style="background-image: url('https://m.media-amazon.com/images/I/81jhky6KIBL._AC_SY200_.jpg');"></div>
+        <p style="display: flex;"> Shop now</p>
+      </div>
+    </div>
+    <div class="box3 box ">
+      <div class="box-content"><h3> Trending Internationally: Top Picks</h3>
+        <div class="box-img" style="background-image: url('https://m.media-amazon.com/images/I/61MeNkos-oL._AC_SY200_.jpg');"></div>
+          <p style="display: flex;">  See more</p>
+      </div>
+    </div>
+    <div class="box4 box ">
+      <div class="box-content"><h3>  Most-loved travel essentials </h3>
+        <div class="box-img" style="background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Aug/Backpack_1x._SY116_CB566100767_.jpg');"></div>
+          <p style="display: flex;" >
+            <a href="https://www.amazon.com/s?k=home+decor&rh=p_36%3A-5000&_encoding=UTF8&content-id=amzn1.sym.cafdce03-7758-45d3-aa9e-3120bad01ee8&pd_rd_r=56aaf431-f4ea-4398-9c77-e3ba8d67de79&pd_rd_w=NwxU2&pd_rd_wg=YgYTc&pf_rd_p=cafdce03-7758-45d3-aa9e-3120bad01ee8&pf_rd_r=Y5FWDDC7BF2XQZKN7X7T&ref=pd_hp_d_atf_unk"> Shop now</a></p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="foot-panel1">
+      Back to top
+    </div>
+    <div class="footpanel2">
+      <ul>
+        <h4> Get to know us</h4>
+        <a> Careers</a>
+        <a> Blog</a>
+        <a> About Amazon</a>
+        <a> Investor Relations</a>
+        <a> Amazon Devices</a>
+        <a> Amazon Science</a>
+
+      </ul>
+      <ul>
+        <h4> Get to know us</h4>
+        <a> Careers</a>
+        <a> Blog</a>
+        <a> About Amazon</a>
+        <a> Investor Relations</a>
+        <a> Amazon Devices</a>
+        <a> Amazon Science</a>
+
+      </ul>
+      <ul>
+        <h4> Get to know us</h4>
+        <a> Careers</a>
+        <a> Blog</a>
+        <a> About Amazon</a>
+        <a> Investor Relations</a>
+        <a> Amazon Devices</a>
+        <a> Amazon Science</a>
+
+      </ul>
+      <ul>
+        <h4> Get to know us</h4>
+        <a> Careers</a>
+        <a> Blog</a>
+        <a> About Amazon</a>
+        <a> Investor Relations</a>
+        <a> Amazon Devices</a>
+        <a> Amazon Science</a>
+
+      </ul>
+    </div>
+    <div class="footpanel3">
+      <div class="logo"></div>
+    </div>
+    <div class="footpanel4">
+      <div class="pages">
+        <a> Conditions of use</a>
+        <a> Privacy Notice</a>
+        <a> Your Ads Privacy Choices</a>
+      </div>
+      <div class="copyright">
+        © 1996-2024, Amazon.com, Inc. or its affiliates
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
